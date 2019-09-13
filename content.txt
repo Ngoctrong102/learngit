@@ -1,0 +1,10 @@
+- git init          Khởi tạo .git
+- git add           Thêm file vào staging area
+- git commit -m ''  Thêm file vào repository
+- git log           Xem lịch sử thay đổi
+- git show          Xem 1 commit
+- git diff          Xem thay đổi của 1 file đã commit
+
+
+- git checkout -- <file>    Lấy file ra khỏi staging area
+- git reset 
