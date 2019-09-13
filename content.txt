@@ -6,5 +6,11 @@
 - git diff          Xem thay đổi của 1 file đã commit
 
 
-- git checkout -- <file>    Lấy file ra khỏi staging area
-- git reset 
+- git checkout -- <file>    Xóa thay đổi của 1 modified chưa add
+- git reset                 Lấy file ra khỏi staging area
+
+- git checkout <branchname>         Chuyển qua branch khác
+- git checkout -b <branchname>      Tạo ra branch mới
+- git branch                        Xem các branch hiện có
+- git merge <branchname>            Gắn branchname vào branch hiện tại
+- git branch   -D <branchname>      Xóa 1 branch
