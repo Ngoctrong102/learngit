@@ -18,3 +18,5 @@
 - git reset --soft <id commit>      Quay lại lúc commit còn ở staging area
 - git reset --mixed <id commit>     Quay lại lúc lúc commit chưa được add
 - git reset --hard <id commit>      Xóa luôn commit
+
+- git revert <id commit>            Xóa những thay đổi của 1 commit
