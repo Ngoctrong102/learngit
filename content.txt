@@ -14,3 +14,7 @@
 - git branch                        Xem các branch hiện có
 - git merge <branchname>            Gắn branchname vào branch hiện tại
 - git branch   -D <branchname>      Xóa 1 branch
+
+- git reset --soft <id commit>      Quay lại lúc commit còn ở staging area
+- git reset --mixed <id commit>     Quay lại lúc lúc commit chưa được add
+- git reset --hard <id commit>      Xóa luôn commit
