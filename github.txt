@@ -4,4 +4,6 @@
 - git push                                                          Đẩy mọi thứ lên github
 
 - git config --global credential.helper "cache --timeout=18000"     Hỏi thông tin tài khoản github 18000 giây 1 lần(lưu thông tin trên ram)
-hôm sau học bài ssh
+
+- git clone <ssh/https>                                             Lấy repostory về
+- git pull                                                          Cập nhật những thay đổi
