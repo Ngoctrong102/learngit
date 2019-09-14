@@ -7,3 +7,5 @@
 
 - git clone <ssh/https>                                             Lấy repostory về
 - git pull                                                          Cập nhật những thay đổi
+
+- git push <remote name> <branch name>                              Push vào một branch
