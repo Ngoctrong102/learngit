@@ -1,4 +1,6 @@
-- git remote add <name remote> <ssh/https>          Thêm một remote
-- git remote remove <name remote>                   Xóa một remove
-- git push -u <name remote> <branch name>           Push lần đầu lên 1 branch
-- git push                                          Đẩy mọi thứ lên github
+- git remote add <name remote> <ssh/https>                          Thêm một remote
+- git remote remove <name remote>                                   Xóa một remove
+- git push -u <name remote> <branch name>                           Push lần đầu lên 1 branch
+- git push                                                          Đẩy mọi thứ lên github
+
+- git config --global credential.helper "cache --timeout=18000"     Hỏi thông tin tài khoản github 18000 giây 1 lần(lưu thông tin trên ram)
