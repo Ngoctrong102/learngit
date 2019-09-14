@@ -1,13 +1,13 @@
-- git init          Khởi tạo .git
-- git add           Thêm file vào staging area
-- git commit -m ''  Thêm file vào repository
-- git log           Xem lịch sử thay đổi
-- git show          Xem 1 commit
-- git diff          Xem thay đổi của 1 file đã commit
+- git init                          Khởi tạo .git
+- git add                           Thêm file vào staging area
+- git commit -m ''                  Thêm file vào repository
+- git log                           Xem lịch sử thay đổi
+- git show                          Xem 1 commit
+- git diff                          Xem thay đổi của 1 file đã commit
 
 
-- git checkout -- <file>    Xóa thay đổi của 1 modified chưa add
-- git reset                 Lấy file ra khỏi staging area
+- git checkout -- <file>            Xóa thay đổi của 1 modified chưa add
+- git reset                         Lấy file ra khỏi staging area
 
 - git checkout <branchname>         Chuyển qua branch khác
 - git checkout -b <branchname>      Tạo ra branch mới
@@ -19,4 +19,5 @@
 - git reset --mixed <id commit>     Quay lại lúc lúc commit chưa được add
 - git reset --hard <id commit>      Xóa luôn commit
 
-- git revert <id commit>            Xóa những thay đổi của 1 commit
+- git revert <id commit>            Xóa những thay đổi của 1 commit (tạo một commit đảo)
+- .gitignore                        File chứa tên những thứ sẽ k được git ghi lại

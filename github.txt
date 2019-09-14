@@ -1,0 +1,4 @@
+- git remote add <name remote> <ssh/https>          Thêm một remote
+- git remote remove <name remote>                   Xóa một remove
+- git push -u <name remote> <branch name>           Push lần đầu lên 1 branch
+- git push                                          Đẩy mọi thứ lên github
